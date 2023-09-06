@@ -1,7 +1,4 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const WebpackPwaManifest = require('webpack-pwa-manifest');
-const path = require('path');
-const { InjectManifest } = require('workbox-webpack-plugin');
+const { compilation } = require('webpack');
 
 module.exports = () => {
   return {
@@ -43,6 +40,15 @@ module.exports = () => {
           },
         ],
       }),
+      // My plugin
+      new webpack.Plugin({
+        name: 'my-plugin',
+        apply(compilation) {
+          compilation.hooks.processAssets.tap('my-plugin', (assets) => {
+            // Make changes to the assets here.
+          });
+        }
+      })
     ],
 
     module: {
@@ -70,3 +76,4 @@ module.exports = () => {
     },
   };
 };
+

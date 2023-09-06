@@ -41,7 +41,7 @@ Before you begin, ensure you have met the following requirements:
 
   ```bash
   git clone https://github.com/EAnthonycarramza/PWA-Text-Editor.git
-  cd text-editor
+  cd PWA-Text-Editor
   ```
   2. install dependencies:
   ```bash

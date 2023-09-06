@@ -2,6 +2,8 @@
 
 J.A.T.E. is a simple web-based text editor with JavaScript syntax highlighting. It allows you to take notes, write code, and organize your thoughts effortlessly.
 
+![J.A.T.E. Screenshot](Assets/PWA-DEMO.png)
+
 ## Table of Contents
 - [Features](#features)
 - [Demo](#demo)
@@ -19,8 +21,6 @@ J.A.T.E. is a simple web-based text editor with JavaScript syntax highlighting. 
 - Simple and intuitive user interface.
 
 ## Demo
-
-You can try out the live demo of J.A.T.E. [here](Assets/PWA-DEMO.png).
 
 You can try out the live demo of J.A.T.E. [here](https://apwa-text-editor-040d74130a69.herokuapp.com/).
 

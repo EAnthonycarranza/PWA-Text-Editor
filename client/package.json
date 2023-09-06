@@ -7,6 +7,10 @@
   },
   "author": "2U",
   "license": "UNLICENSED",
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  },
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
@@ -29,3 +33,4 @@
     "idb": "^6.1.2"
   }
 }
+

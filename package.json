@@ -4,9 +4,9 @@
   "description": "",
   "main": "server.js",
 "scripts": {
-    "start": "node server.js",
-    "start:dev": "nodemon server.js",
-    "server": "node server.js",
+    "start": "",
+    "start:dev": "",
+    "server": "",
     "build": "",
     "install": "",
     "client": ""

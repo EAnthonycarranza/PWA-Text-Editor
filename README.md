@@ -58,10 +58,13 @@ Before you begin, ensure you have met the following requirements:
 
 ### Built With
 
-  Express.js - Web framework for the server.
-  Webpack - Module bundler for client-side code.
-  CodeMirror - The JavaScript library for the text editor component.
-  Workbox - Used for service worker and PWA functionality.
+  #### Express.js - Web framework for the server.
+  
+  #### Webpack - Module bundler for client-side code.
+  
+  #### CodeMirror - The JavaScript library for the text editor component.
+  
+  #### Workbox - Used for service worker and PWA functionality.
 
 ### License
 

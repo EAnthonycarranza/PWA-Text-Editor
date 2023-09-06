@@ -11,7 +11,7 @@
     "build": "cd client && npm run build"
   },
   "author": "Your Name",
-  "license": "ISC", // Change this if needed
+  "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
   },

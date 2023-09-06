@@ -9,8 +9,8 @@ module.exports = () => {
   return {
     mode: 'development',
     entry: {
-      main: './client/src/js/index.js',
-      install: './client/src/js/install.js'
+      main: './src/js/index.js',
+      install: './src/js/install.js'
     },
     plugins: [
       new HtmlWebpackPlugin({

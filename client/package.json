@@ -1,12 +1,12 @@
 {
   "name": "JATE",
   "version": "1.0.0",
-  "scripts": {
-    "dev": "webpack-dev-server",
+"scripts": {
+  "dev": "webpack-dev-server",
   "build": "npx webpack --mode production",
-    "start": "webpack --watch",
-    "postinstall": "npm run build"
-  },
+  "start": "webpack --watch",
+  "postinstall": "npm run build"
+},
   "author": "2U",
   "license": "UNLICENSED",
   "engines": {
